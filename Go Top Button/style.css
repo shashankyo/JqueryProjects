@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montscrrat";
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.container img{
+    width: 100%;
+ 
+}
+.container p{
+    margin: 10px 0;
+    line-height: 26px;
+    text-align: justify;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #37a3fe;
+    top: -80px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s ease-out;
+    opacity: 0;
+}
+
+.gotopbtn.active{
+    top: calc(100% - 100px);
+    opacity: 1;
+}
+
+.gotopbtn:hover{
+    background-color: #27aa68;
+
+}
+
+.gotopbtn::before,
+.gotopbtn::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #37e3fe;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    animation: waves 2s linear infinite;
+}
+.gotopbtn::after{
+    animation-delay: 1s;
+}
+.gotopbtn::before
+.gotopbtn::after{
+    border-color: #27aa68;
+}
+
+@keyframes waves{
+    to{
+        transform: scale(40);
+        opacity: 0;
+    }
+}

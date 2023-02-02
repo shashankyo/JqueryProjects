@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Top Button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" 
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="gotopbtn">
+            <i class="fas fs-arraow-up"></i>
+        </div>
+        <img src="img.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, qui quos ipsa voluptates dolores debitis nesciunt? In voluptatibus ex molestiae omnis, soluta molestias asperiores ipsum maiores quos totam minima incidunt cupiditate cumque! Ex assumenda atque eaque ipsa numquam delectus quas, iure omnis minus, ullam, perferendis praesentium deserunt incidunt! Aspernatur deserunt illum commodi. Magnam magni alias in nulla, natus dolor veniam soluta optio culpa! Fugiat similique magnam obcaecati at fugit hic odit doloremque maxime molestiae voluptates reiciendis molestias impedit iure facilis, nulla laudantium harum veniam temporibus adipisci nihil dignissimos distinctio ullam? Maxime asperiores ut voluptatem natus? Facilis cum ducimus excepturi perspiciatis delectus nam eos incidunt nihil, quae in animi sunt magnam eligendi aliquid itaque tempore quisquam dolorum! Mollitia libero magnam recusandae molestiae accusantium accusamus sequi autem veniam? Delectus molestiae rerum iusto officiis voluptatum perspiciatis voluptatibus quam ipsa, cumque ut ipsum, facilis, ullam adipisci nam aliquam? Consectetur corrupti iusto vitae officiis eaque enim asperiores unde sit, tenetur vero perferendis omnis magni repudiandae repellendus atque neque esse aliquid deleniti totam assumenda. Modi amet ipsum error, eaque quaerat cumque quisquam repellat pariatur? Deleniti dolorum culpa incidunt recusandae suscipit ab qui? Repudiandae, nostrum quo similique minus quis, fugit, est praesentium facere exercitationem doloremque dignissimos necessitatibus. Esse eos at laborum ullam laboriosam facere facilis incidunt suscipit labore delectus nihil, autem nobis cupiditate corporis enim cumque ipsa ratione aliquid nostrum et debitis laudantium sit qui omnis! Temporibus, expedita quaerat. Ipsum, molestias cum mollitia aperiam dolor doloribus eaque voluptatum qui doloremque, repellat ducimus magni? Labore odio architecto atque ea nihil, praesentium eligendi vitae distinctio est provident iste temporibus animi possimus molestias perferendis nobis illo, repudiandae ad ipsam ipsa explicabo rerum exercitationem ipsum. Facere, assumenda. Hic doloremque nihil eum aspernatur. Ea dolore cum, vitae iusto, vero eligendi quibusdam dicta repudiandae delectus atque corporis iste porro earum voluptates tempore rem.</p>
+    </div>
+    <script>
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 150)
+                $(".gotopbtn").addClass("active");
+            else
+                $(".gotopbtn").removeClass("active");
+        });
+        $(".gotopbtn").click(function(){
+            $("html, body").animate({scrollTop:0},800)
+        })
+    </script>
+</body>
+</html>
