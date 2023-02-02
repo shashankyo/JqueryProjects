@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CoffeeTech Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>CoffeeTech</h1>
+        <div class="slider">
+            <img src="slide1.jpg" width="640" height="426">
+            <img src="slide2.jpg" width="640" height="426">
+            <img src="slide3.jpg" width="640" height="426">
+            <img src="slide4.jpg" width="640" height="426">
+            <img src="slide5.jpg" width="640" height="426">
+        </div>
+
+        <ul id="nav">
+            <li id="prev"><a href="#">Previous</a></li>
+            <li id="next"><a href="#">Next</a></li>
+        </ul>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.slider').cycle({
+                fx: 'turnDown',
+                pause:0.1,
+                prev:'#prev',
+                next:'#next'
+            });
+        });
+    </script>
+</body>
+</html>
