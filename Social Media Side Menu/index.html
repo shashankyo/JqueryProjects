@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Side Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="side-menu active">
+        <div class="toggle-btn fas fa-chevron-left">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+                Facebook
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+                Twitter
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+                Youtube
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <a href="#">
+                <i class="fab fa-discord"></i>
+                Discord
+            </a>
+        </div>
+    </div>
+    <script>
+        $(".toggle-btn").click(function(){
+            $(".side-menu").toggleClass("active");
+            $(this).toggleClass("fa-chevron-right");
+        });
+    </script>
+</body>
+</html>

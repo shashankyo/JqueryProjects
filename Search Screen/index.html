@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Search Box</h1>
+
+      <div class="search-screen">
+        <i class="fas fa-search search-icon"></i>
+        <div class="search-box">
+          <input type="text" class="search-txt" placeholder="search">
+          <button class="search-btn"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      $(".search-icon").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".search-screen").toggleClass("active");
+      });
+
+      $(".search-txt").keyup(function(){
+        if($(this).val() != ""){
+          $(".search-btn").css("opacity",1);
+          $(".search-btn").css("transform","rotate(0deg)");
+        }else{
+          $(".search-btn").css("opacity",0);
+          $(".search-btn").css("transform","rotate(45deg)");
+        }
+      });
+    </script>
+  </body>
+</html>

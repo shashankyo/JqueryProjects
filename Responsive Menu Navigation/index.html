@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu Navigation  </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="inner-width">
+            <a href="#" class="logo"><img src="logo.png"></a>
+            <i class="menu-toggle-btn fas fa-bars"></i>
+            <nav class="navigation-menu">
+                <a href="#"><i class="fas fa-home home"></i>Home</a>
+                <a href="#"><i class="fas fa-align-left about"></i>About</a>
+                <a href="#"><i class="fab fa-buffer works"></i>Works</a>
+                <a href="#"><i class="fas fa-users team"></i>Team</a>
+                <a href="#"><i class="fas fa-headset contact"></i>Contact</a>
+
+            </nav>
+
+        </div>
+    </header>
+    <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+            $(this).toggleClass("fa-times");
+            $(".navigation-menu").toggleClass("active");
+        });
+    </script>
+</body>
+</html>

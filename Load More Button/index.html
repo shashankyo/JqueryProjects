@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load More Button</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div class="images-container">
+        <div class="image">
+            <img src="images/1.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/2.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/3.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/4.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/5.jpg" alt="" width="200px" height="200px">
+        </div>
+
+        <div class="image">
+            <img src="images/1.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/2.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/3.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/4.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div class="image">
+            <img src="images/5.jpg" alt="" width="200px" height="200px">
+        </div>
+    </div>
+    <button class="load-more">Load More</button>
+    <script>
+        $(document).ready(function(){
+            $(".image").slice(0,6).fadeIn();
+            $(".load-more").click(function(){
+                $(".image").slice(0,12).fadeIn();
+                $(this).fadeOut();
+            });
+        });
+    </script>
+</body>
+</html>
