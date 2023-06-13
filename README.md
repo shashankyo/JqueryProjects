@@ -9,7 +9,7 @@
 ![AccordionJquery](https://user-images.githubusercontent.com/114981861/232941732-150e2c3f-ee0e-4bc5-9a31-39c513a1ad0f.png)
 
 
-                                                         02-Tabs
+                                                      02-Tabs
 
 
 
@@ -24,10 +24,12 @@
 
 
                                                       04-Form Validation
+                                                      
+                                                      
 ![Firefox_Screenshot_2023-04-19T01-20-43 847Z](https://user-images.githubusercontent.com/114981861/232942143-e5f5d8a7-c200-4736-b80a-f9daa227f8e9.png)
 
 
-                                                        05-Go top button
+                                                      05-Go top button
 
 
 
@@ -76,20 +78,20 @@
 ![search1](https://user-images.githubusercontent.com/114981861/232942575-bb77dda3-8479-4355-aedc-68d9a621bb7b.png)
 
 
-                                                       12-Social media side screen
+                                                        12-Social media side screen
                                                        
                                                        
                                                        
 ![side](https://user-images.githubusercontent.com/114981861/232943306-c5a0ed57-8d95-4e5a-8000-6fa7e56c778a.png)
 
 
-                                                                14-TodoList
+                                                        14-TodoList
 
 
 ![TodoJquery](https://user-images.githubusercontent.com/114981861/232942684-ae0eea76-fb5f-46bb-b5a1-c653766348e4.png)
 
 
-                                                                15-Calculator
+                                                        15-Calculator
 
 
 
