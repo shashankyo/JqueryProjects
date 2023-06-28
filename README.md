@@ -64,7 +64,7 @@
 ![ShoesJquery](https://user-images.githubusercontent.com/114981861/232941486-262795e4-d682-40c1-9b55-a71ee0d42e5d.png)
 
 
-                                                        10-Responsive menu
+                                                        10-Responsive Navigation menu
 
 
 
