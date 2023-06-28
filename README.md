@@ -16,7 +16,7 @@
 ![tabs](https://user-images.githubusercontent.com/114981861/232941862-f579dcc5-0327-4521-9585-12eb139ce51c.png)
 
 
-                                                      03-Animated login
+                                                      03-Animated Login
 
 
 
@@ -36,14 +36,14 @@
 ![gotop](https://user-images.githubusercontent.com/114981861/232944009-16f2545f-e0f7-4fa4-8479-e28b61c0798c.png)
 
 
-                                                        06-Image slider
+                                                        06-Image Slider
 
 
 
 ![slideshow](https://user-images.githubusercontent.com/114981861/232943704-bcad3ae6-df5d-482b-b504-00cfc9fbf41c.png)
 
 
-                                                        07-Model popup
+                                                        07-Model Popup
 
 
 
@@ -57,7 +57,7 @@
 ![Preload](https://user-images.githubusercontent.com/114981861/232943872-3c49ed4c-477e-4cb1-9321-04fb3a9afec0.png)
 
 
-                                                        09-Product card
+                                                        09-Product Card
 
 
 
