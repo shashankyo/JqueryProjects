@@ -64,14 +64,14 @@
 ![ShoesJquery](https://user-images.githubusercontent.com/114981861/232941486-262795e4-d682-40c1-9b55-a71ee0d42e5d.png)
 
 
-                                                        10-Responsive Navigation menu
+                                                        10-Responsive Navigation Menu
 
 
 
 ![Nabvar](https://user-images.githubusercontent.com/114981861/232942277-9648cef9-6c85-48db-aa9c-845dc9b30d7c.png)
 
 
-                                                        11-Search screen
+                                                        11-Search Screen
 
 
 
