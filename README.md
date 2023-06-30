@@ -29,7 +29,7 @@
 ![Firefox_Screenshot_2023-04-19T01-20-43 847Z](https://user-images.githubusercontent.com/114981861/232942143-e5f5d8a7-c200-4736-b80a-f9daa227f8e9.png)
 
 
-                                                      05-Goto top button
+                                                      05-Goto Top Button
 
 
 
@@ -78,7 +78,7 @@
 ![search1](https://user-images.githubusercontent.com/114981861/232942575-bb77dda3-8479-4355-aedc-68d9a621bb7b.png)
 
 
-                                                        12-Social media side screen
+                                                        12-Social Media Side Screen
                                                        
                                                        
                                                        
