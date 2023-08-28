@@ -78,7 +78,7 @@
 ![search1](https://user-images.githubusercontent.com/114981861/232942575-bb77dda3-8479-4355-aedc-68d9a621bb7b.png)
 
 
-                                                      12-Social Media Side Screen
+                                                      12-Social-Media Side Screen
                                                        
                                                        
                                                        
