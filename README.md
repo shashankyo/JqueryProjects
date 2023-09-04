@@ -85,7 +85,7 @@
 ![side](https://user-images.githubusercontent.com/114981861/232943306-c5a0ed57-8d95-4e5a-8000-6fa7e56c778a.png)
 
 
-                                                      14-TodoList
+                                                      14-Todo-List
 
 
 ![TodoJquery](https://user-images.githubusercontent.com/114981861/232942684-ae0eea76-fb5f-46bb-b5a1-c653766348e4.png)
